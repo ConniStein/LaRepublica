@@ -1,0 +1,21 @@
+.publicidad{
+	float: left;
+}
+
+.title-social{
+	display:inline-block;
+	margin-left:150px;
+	.title-icon{
+		width: 10%;
+		height: 10%;
+	}
+	ul{
+		display: inline-block;
+		li{
+			display: inline-block;
+			text-align: right;
+			padding-right:5px;
+			margin-left: 10px;
+		}
+	}
+}
