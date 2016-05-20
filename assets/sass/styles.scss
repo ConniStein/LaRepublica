@@ -1,0 +1,12 @@
+.fondo{
+	@include fondobaner;
+	img{
+		padding-top:10px;
+		padding-left:10px;
+		&:rep{
+			padding-right:100px;
+
+		}
+	}
+	}
+

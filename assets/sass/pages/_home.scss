@@ -1,0 +1,25 @@
+ul{
+	width:100%;
+	color:$blanco;
+	li{
+		border:1px solid $blanco;
+		background-color:$rojo;
+		padding:3px;
+		a{
+			@include menu;
+		}
+		
+
+	}
+
+}
+nav{
+	ul{
+		li{
+			list-style-type: square;
+			a{
+				@include menuT;
+			}
+		}
+	}
+}

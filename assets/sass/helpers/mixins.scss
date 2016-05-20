@@ -1,0 +1,16 @@
+@mixin fondobaner{
+	background-color:$gris;
+	width:100%;
+	height:150px;
+	margin:0 auto;
+}
+@mixin menu{
+	font-family:$txtmenu;
+	color:$blanco;
+	font-size:13px;
+}
+@mixin menuT{
+	color:$negro;
+	padding:5px;
+	background-color:$gris;
+}
