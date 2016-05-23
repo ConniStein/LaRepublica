@@ -1,0 +1,411 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+/*colores*/
+/*fuentes*/
+a:hover {
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none;
+  float: left;
+  display: inline-block; }
+
+.fondo {
+  background-color: #F4F5F7;
+  width: 100%;
+  height: 150px;
+  margin: 0 auto; }
+  .fondo img {
+    padding-top: 10px;
+    padding-left: 10px; }
+    .fondo img:rep {
+      padding-right: 100px; }
+
+/*HEADER*/
+ul {
+  width: 100%;
+  color: #FFF; }
+  ul li {
+    border: 1px solid #FFF;
+    background-color: #BA1414;
+    padding: 5px 10px 5px 10px; }
+    ul li a {
+      font-family: Roboto;
+      color: #FFF;
+      font-size: 13px; }
+
+nav {
+  width: 100%; }
+  nav ul .temas {
+    border-radius: 6px 0px 0px 6px;
+    background-color: #050000;
+    padding: 5px 15px 5px 15px; }
+  nav ul .presentation {
+    color: #050000;
+    padding: 5px;
+    background-color: #F4F5F7;
+    padding: 5px 10px 5px 10px; }
+    nav ul .presentation img {
+      padding: 3px; }
+    nav ul .presentation a {
+      color: #050000; }
+
+.rep {
+  padding-right: 70px; }
+  .rep:before, .rep:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .rep img {
+    padding-left: 10px;
+    margin-right: 50px; }
+
+.fondo span {
+  font-size: 10px; }
+.fondo .iconos:before, .fondo .iconos:after {
+  content: " ";
+  display: block;
+  clear: both; }
+.fondo .iconos input {
+  width: 60px;
+  margin-top: 10px; }
+  .fondo .iconos input:before, .fondo .iconos input:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+button {
+  border-radius: 10px; }
+  button a {
+    color: #FFF;
+    font-weight: 10px; }
+
+/*COLUMNA IZQUIERDA*/
+.suscribete {
+  width: 100%;
+  border: 1px solid #768696;
+  margin-bottom: 10px;
+  height: 250px;
+  background-color: #F4F5F7;
+  position: relative; }
+  .suscribete .ima {
+    float: left;
+    width: 45%; }
+  .suscribete .textoima {
+    float: left;
+    width: 45%; }
+    .suscribete .textoima p {
+      font-size: 12px;
+      float: left;
+      margin-left: 10%;
+      padding-top: 10px;
+      font-weight: bold; }
+  .suscribete img {
+    margin-left: 40%;
+    padding-top: 0px; }
+  .suscribete .suscribeteboton {
+    background-color: #FFF;
+    width: 90%;
+    height: 150px;
+    margin-left: 15px;
+    padding-top: -10px; }
+    .suscribete .suscribeteboton h4 {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 50px; }
+    .suscribete .suscribeteboton input {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 60px; }
+    .suscribete .suscribeteboton button {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 100px; }
+  .suscribete span {
+    float: left;
+    padding-top: 10px; }
+    .suscribete span input {
+      float: left;
+      padding-top: 10px; }
+
+.suscribete2 {
+  width: 100%;
+  border: 1px solid #768696;
+  margin-bottom: 10px;
+  height: 400px;
+  background-color: #F4F5F7;
+  position: relative; }
+  .suscribete2 .ima {
+    float: left;
+    width: 45%; }
+  .suscribete2 .textoima {
+    float: left;
+    width: 45%; }
+    .suscribete2 .textoima p {
+      font-size: 12px;
+      float: left;
+      margin-left: 10%;
+      padding-top: 10px;
+      font-weight: bold; }
+  .suscribete2 img {
+    margin-left: 40%;
+    padding-top: 0px; }
+  .suscribete2 .suscribeteboton {
+    background-color: #FFF;
+    width: 90%;
+    height: 150px;
+    margin-left: 15px;
+    padding-top: -10px;
+    margin-botton: 10px; }
+    .suscribete2 .suscribeteboton h4 {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 50px;
+      text-align: center; }
+    .suscribete2 .suscribeteboton input {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 60px; }
+    .suscribete2 .suscribeteboton button {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 100px; }
+    .suscribete2 .suscribeteboton .progress {
+      float: left; }
+  .suscribete2 span {
+    float: left;
+    padding-top: 10px; }
+    .suscribete2 span input {
+      float: left;
+      padding-top: 10px; }
+
+.suscribete3 {
+  width: 100%;
+  border: 1px solid #768696;
+  margin-bottom: 10px;
+  height: 450px;
+  background-color: #F4F5F7;
+  position: relative; }
+  .suscribete3 .ima {
+    float: left;
+    width: 45%; }
+  .suscribete3 .textoima {
+    float: left;
+    width: 45%; }
+    .suscribete3 .textoima p {
+      font-size: 12px;
+      float: left;
+      margin-left: 10%;
+      padding-top: 10px;
+      font-weight: bold; }
+  .suscribete3 img {
+    margin-left: 40%;
+    padding-top: 0px; }
+  .suscribete3 .suscribeteboton {
+    background-color: #FFF;
+    width: 90%;
+    height: 350px;
+    margin-left: 15px;
+    padding-top: -10px; }
+    .suscribete3 .suscribeteboton h4 {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 50px; }
+    .suscribete3 .suscribeteboton input {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 60px; }
+    .suscribete3 .suscribeteboton button {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 100px; }
+  .suscribete3 .reportero img {
+    margin-left: 20%;
+    width: 170px;
+    height: 70px; }
+  .suscribete3 .reportero p {
+    text-align: center; }
+  .suscribete3 span {
+    float: left;
+    padding-top: 10px; }
+    .suscribete3 span input {
+      float: left;
+      padding-top: 10px; }
+
+.aweita {
+  width: 100%;
+  border: 1px solid #768696;
+  margin-bottom: 10px;
+  height: 350px; }
+  .aweita .ima {
+    float: left;
+    width: 45%; }
+  .aweita .textoima {
+    float: left;
+    width: 45%; }
+    .aweita .textoima p {
+      font-size: 12px;
+      float: left;
+      margin-left: 10%;
+      padding-top: 10px;
+      font-weight: bold; }
+  .aweita img {
+    margin-left: 30%; }
+
+.titulos {
+  margin-botton: 10px; }
+  .titulos hr {
+    font-size: 13px; }
+  .titulos h3 {
+    background-color: #768696;
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+    color: #FFF; }
+  .titulos .fotostxt img {
+    float: left;
+    width: 45%; }
+  .titulos .fotostxt p {
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 12px; }
+  .titulos .txt {
+    width: 90%;
+    margin-top: -40px; }
+    .titulos .txt p {
+      text-align: center;
+      color: #050000;
+      font-weight: bold; }
+
+.car {
+  margin-botton: 10px; }
+  .car h3 {
+    background-color: #BA1414;
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+    color: #FFF; }
+  .car p {
+    font-size: 14px;
+    color: #BA1414;
+    text-align: center; }
+
+.blogue {
+  margin-botton: 10px; }
+  .blogue h3 {
+    background-color: #768696;
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+    color: #FFF; }
+  .blogue .blogueros {
+    width: 100%; }
+    .blogue .blogueros:before, .blogue .blogueros:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    .blogue .blogueros img {
+      width: 35%;
+      float: left;
+      height: 100px; }
+    .blogue .blogueros p, .blogue .blogueros a {
+      width: 45%;
+      float: left;
+      margin-left: 5%;
+      padding-top: 10px;
+      font-weight: bold; }
+
+.impresa {
+  margin-botton: 10px; }
+  .impresa h3 {
+    background-color: #BA1414;
+    text-align: center;
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+    color: #FFF; }
+  .impresa .edicion {
+    width: 100%; }
+  .impresa .bl:before, .impresa .bl:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .impresa .bl img {
+    float: left;
+    width: 40%; }
+  .impresa .bl p, .impresa .bl a {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 10px;
+    font-weight: bold; }
+
+h3 {
+  margin-bottom: 10px; }
+  h3:before, h3:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.cuadrado {
+  margin: 10px;
+  border: 3px solid #768696;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+  background-color: #F4F5F7; }
+  .cuadrado h5, .cuadrado h6 {
+    text-align: center;
+    font-weight: bold; }
+  .cuadrado .cu img {
+    float: left; }
+  .cuadrado .cu p {
+    float: left;
+    text-align: center;
+    margin-left: 5px; }
+
+.back {
+  margin-bottom: 10px; }
+  .back li {
+    padding: 10px 35px 10px 35px; }
+
+.cua {
+  margin: 10px;
+  border: 3px solid #768696;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+  background-color: #F4F5F7;
+  padding-top: 10px; }
+  .cua img {
+    float: left;
+    border: 3px solid #768696;
+    width: 43%;
+    height: 80%; }
+  .cua p {
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    width: 45%;
+    font-size: 10px; }
+
+/*# sourceMappingURL=main.css.map */
