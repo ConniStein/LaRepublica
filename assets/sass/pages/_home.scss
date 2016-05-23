@@ -35,7 +35,6 @@ nav{
 		}
 	}
 }
-
 .rep{
 		@include repisa;
 		padding-right:70px;
@@ -44,8 +43,6 @@ nav{
 		margin-right: 50px;
 		}
 }
-	
-
 .fondo{
 	span{
 		font-size: 10px;
@@ -67,7 +64,7 @@ button{
 		font-weight: 10px;
 	}
 }
-/*COLUMNA IZQUIERDA*/
+/*COLUMNA DERECHO*/
 .suscribete{
 	@include alturacuadros;
 	height:250px;
