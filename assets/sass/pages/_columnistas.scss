@@ -1,0 +1,49 @@
+h3{
+	margin-bottom:10px;
+	@include repisa;
+	
+}
+.cuadrado{
+		@include colu;
+
+		h5,h6{
+			text-align: center;
+			font-weight: bold;
+		}
+		.cu{
+
+			img{
+				float:left;
+			}
+			
+			p{
+				float:left;
+				text-align: center;
+				margin-left: 5px;
+			}
+		}
+	}
+.back{
+	margin-bottom:10px;
+	li{
+		padding:10px 35px 10px 35px;
+	}
+}
+.cua{
+		@include colu;
+		padding-top:10px;
+			img{
+				float:left;
+				border:3px solid $gris-oscuro;
+				width: 43%;
+				height:80%;
+			}
+			
+			p{
+				float:left;
+				text-align: center;
+				margin-left: 5px;
+				width: 45%;
+				font-size: 10px;
+			}
+		}
