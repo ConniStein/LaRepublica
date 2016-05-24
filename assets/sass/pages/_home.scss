@@ -31,7 +31,6 @@
 		a{
 			@include menu;
 		}
-		
 
 	}
 
@@ -333,6 +332,10 @@ button{
 
 /*ESTILOS CONNI HOME*/
 .col-md-14{
+
+/*ESTILOS CONNI*/
+.col-md-12{
+>>>>>>> conni-home
 	padding:30px;
 }
 
@@ -373,6 +376,7 @@ h1, h3, h4, h6 {
 .noticia1{
 	
 }
+
 /*ESTILOS FOOTER*/
 .bg-gray{
 	background-color:$bg-gris;

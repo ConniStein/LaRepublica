@@ -1,25 +1,35 @@
 /*
-Error: Invalid CSS after "		font-weight: 700": expected "{", was ";"
-        on line 53 of assets/sass/pages/_blogs.scss
-        from line 7 of assets/sass/main.scss
+Error: Invalid CSS after "	padding:30px": expected "{", was ";"
+        on line 339 of assets/sass/pages/_home.scss
+        from line 6 of assets/sass/main.scss
 
-48: 		background-color: $gris-blogs;
-49: 
-50: 	}
-51: }
-52: 
-53: 		font-weight: 700;
-54: 
-55: 	}
-56: }
+334: .col-md-14{
+335: 
+336: /*ESTILOS CONNI*\/
+337: .col-md-12{
+338: >>>>>>> conni-home
+339: 	padding:30px;
+340: }
+341: 
+342: h1, h3, h4, h6 {
+343:   font-weight: 700; 
+344: }
 
 Backtrace:
-assets/sass/pages/_blogs.scss:53
-assets/sass/main.scss:7
+assets/sass/pages/_home.scss:339
+assets/sass/main.scss:6
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
@@ -69,4 +79,4 @@ C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"		font-weight: 700\": expected \"{\", was \";\"\A         on line 53 of assets/sass/pages/_blogs.scss\A         from line 7 of assets/sass/main.scss\A \A 48: 		background-color: $gris-blogs;\A 49: \A 50: 	}\A 51: }\A 52: \A 53: 		font-weight: 700;\A 54: \A 55: 	}\A 56: }"; }
+  content: "Error: Invalid CSS after \"	padding:30px\": expected \"{\", was \";\"\A         on line 339 of assets/sass/pages/_home.scss\A         from line 6 of assets/sass/main.scss\A \A 334: .col-md-14{\A 335: \A 336: /*ESTILOS CONNI*/\A 337: .col-md-12{\A 338: >>>>>>> conni-home\A 339: 	padding:30px;\A 340: }\A 341: \A 342: h1, h3, h4, h6 {\A 343:   font-weight: 700; \A 344: }"; }
