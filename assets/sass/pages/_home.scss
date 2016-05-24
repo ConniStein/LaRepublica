@@ -18,9 +18,9 @@
 			margin-left: 10px;
 		}
 	}
-
+}
 /*HEADER*/
-ul{
+.menu1{
 	width:100%;
 	color:$blanco;
 	li{
@@ -244,6 +244,7 @@ button{
 		img{
 		float:left;
 		width:45%;
+		}
 	}
 	p{
 		float:left;
@@ -252,7 +253,6 @@ button{
 		padding-top:10px;
 		font-weight: bold;
 		font-size: 12px;
-	}
 	}
 	.txt{
 		width:90%;
@@ -295,7 +295,7 @@ button{
 		p,a{
 			width:45%;
 			float:left;
-			margin-left: 5%;
+			margin-left:5%;
 			padding-top:10px;
 			font-weight:bold;
 		}
@@ -313,38 +313,67 @@ button{
 		width:100%;
 	}
 	.bl{
-		
 		@include repisa;
 		img{
 		float:left;
 		width:40%;
 		}
+
 		p,a{
 			width:45%;
 			float:left;
-			margin-left: 5%;
+			margin-left:5%;
 			padding-top:10px;
 			font-weight:bold;
 		}
-	
 	}
+}
+
 /*ESTILOS CONNI*/
 h1, h3, h4, h6 {
-  font-weight: 700; }
+  font-weight: 700; 
+}
 
 .publicidad {
-  float: left; }
+  float: left; 
+}
 
 .title-social {
-  display: inline-block;
-  margin-left: 150px; }
-  .title-social .title-icon {
-    width: 10%;
-    height: 10%; }
-  .title-social ul {
-    display: inline-block; }
+	display: inline-block;
+  	margin-left: 150px;
+
+  	.title-social .title-icon {
+    	width: 10%;
+    	height: 10%; 
+	}
+  	.title-social ul {
+    	display: inline-block; 
+	}
     .title-social ul li {
       display: inline-block;
       text-align: right;
       padding-right: 5px;
-      margin-left: 10px; }
+      margin-left: 10px; 
+  	}
+}
+
+/*ESTILOS FOOTER*/
+.bg-gray{
+	background-color:$bg-gris;
+	padding:30px 40px 0px 30px;
+	margin-top:20px;
+	img, h4{
+		padding-left:40px;
+	}
+	
+	.footer-logo{
+		padding-top:50px;
+	}
+	ul li{
+		text-align: left;
+	}
+	.col-md-4{
+		padding:-10px;
+	}
+}
+
