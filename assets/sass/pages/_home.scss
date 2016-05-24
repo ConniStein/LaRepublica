@@ -331,7 +331,11 @@ button{
 }
 
 
-/*ESTILOS CONNI*/
+/*ESTILOS CONNI HOME*/
+.col-md-14{
+	padding:30px;
+}
+
 h1, h3, h4, h6 {
   font-weight: 700; 
 }
@@ -359,6 +363,16 @@ h1, h3, h4, h6 {
   	}
 }
 
+.thumbnail{
+	@include caja-deportes;
+	img{
+		width: 100%;
+	}
+}
+
+.noticia1{
+	
+}
 /*ESTILOS FOOTER*/
 .bg-gray{
 	background-color:$bg-gris;
