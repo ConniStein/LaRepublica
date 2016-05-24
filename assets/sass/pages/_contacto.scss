@@ -1,0 +1,42 @@
+.contact-box{
+	padding:30px;
+	h1{
+		text-align: center;
+	}
+	button{
+		background-color:#171717;
+		padding:10px 100px;
+		color:#FFF;
+		font-weight:700;
+		margin:20px 10px 10px 150px;
+	}
+}
+
+.contact-form{
+	padding:0px 150px 0px 150px;
+	.col-md-7{
+		height: 100%;
+		width: 40%;
+		.radio{
+			label{
+			padding-bottom:6px;
+			}		
+		}
+	}
+	.form-control{
+		background-color: $bg-gris;
+	}
+	.ejemplo-box{
+		width: 60%;
+		.ejemplo-form{
+			text-align: right;
+			margin-top: 80px;
+			li{
+				padding-bottom:10px;
+				list-style: none;
+			}
+		}
+	}	
+}
+
+

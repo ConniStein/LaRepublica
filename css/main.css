@@ -30,8 +30,33 @@ h1, h3, h4, h6 {
       padding-right: 5px;
       margin-left: 10px; }
 
-/*@import 'pages/_blogs';
-@import 'pages/_columnistas';
-@import 'pages/_contacto';*/
+.contact-box {
+  padding: 30px; }
+  .contact-box h1 {
+    text-align: center; }
+  .contact-box button {
+    background-color: #171717;
+    padding: 10px 100px;
+    color: #FFF;
+    font-weight: 700;
+    margin: 20px 10px 10px 150px; }
+
+.contact-form {
+  padding: 0px 150px 0px 150px; }
+  .contact-form .col-md-7 {
+    height: 100%;
+    width: 40%; }
+    .contact-form .col-md-7 .radio label {
+      padding-bottom: 6px; }
+  .contact-form .form-control {
+    background-color: #EAEAEA; }
+  .contact-form .ejemplo-box {
+    width: 60%; }
+    .contact-form .ejemplo-box .ejemplo-form {
+      text-align: right;
+      margin-top: 80px; }
+      .contact-form .ejemplo-box .ejemplo-form li {
+        padding-bottom: 10px;
+        list-style: none; }
 
 /*# sourceMappingURL=main.css.map */
