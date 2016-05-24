@@ -64,3 +64,9 @@
 	width: 100%;
 	background-color:$gris;
 }
+
+@mixin blog_box{
+	border:1px solid $gris-blogs;
+	padding:10px;
+	margin:10px;
+}

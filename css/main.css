@@ -413,7 +413,7 @@ h1, h3, h4, h6 {
   background-color: #E3E3E3;
   padding: 40px 40px 0px 30px;
   margin-top: 20px; }
-  .bg-gray img, .bg-gray h4 {
+  .bg-gray .img-footer, .bg-gray h4 {
     padding-left: 40px; }
   .bg-gray .footer-logo {
     padding-top: 50px; }
@@ -423,6 +423,49 @@ h1, h3, h4, h6 {
     padding: -10px; }
   .bg-gray .derechos {
     font-size: 12px; }
+
+.container-blogs {
+  padding: 50px; }
+  .container-blogs .titular {
+    text-align: left; }
+  .container-blogs .blog-box {
+    border: 1px solid #E2E6E9;
+    padding: 10px;
+    margin: 10px;
+    width: 100%; }
+    .container-blogs .blog-box .img-thumbnail {
+      padding-left: -40px; }
+    .container-blogs .blog-box h4 {
+      margin-bottom: 48px;
+      text-align: center; }
+    .container-blogs .blog-box p {
+      text-align: center; }
+  .container-blogs .blog-box-2 {
+    border: 1px solid #E2E6E9;
+    padding: 10px;
+    margin: 10px;
+    width: 100%; }
+    .container-blogs .blog-box-2 h4 {
+      text-align: center; }
+    .container-blogs .blog-box-2 p {
+      text-align: center; }
+  .container-blogs .blog-box-3 {
+    border: 1px solid #E2E6E9;
+    padding: 10px;
+    margin: 10px;
+    width: 100%; }
+    .container-blogs .blog-box-3 h4 {
+      margin-bottom: 29px;
+      text-align: center; }
+    .container-blogs .blog-box-3 p {
+      text-align: center; }
+
+.bg-gray-2 {
+  background-color: #E2E6E9;
+  padding: 10px 40px 10px 10px; }
+  .bg-gray-2 h5, .bg-gray-2 h6 {
+    text-align: center;
+    background-color: #E2E6E9; }
 
 h3 {
   margin-bottom: 10px; }
