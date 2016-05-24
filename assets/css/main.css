@@ -1,3 +1,113 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*colores*/
+/*fuentes*/
+/*HEADER*/
+ul {
+  width: 100%;
+  color: #FFF; }
+  ul li {
+    border: 1px solid #FFF;
+    background-color: #BA1414;
+    padding: 5px 10px 5px 10px; }
+    ul li a {
+      font-family: Roboto;
+      color: #FFF;
+      font-size: 13px; }
+
+nav {
+  width: 100%; }
+  nav ul .temas {
+    border-radius: 6px 0px 0px 6px;
+    background-color: #050000;
+    padding: 5px 15px 5px 15px; }
+  nav ul .presentation {
+    color: #050000;
+    padding: 5px;
+    background-color: #F4F5F7;
+    padding: 5px 10px 5px 10px; }
+    nav ul .presentation img {
+      padding: 3px; }
+    nav ul .presentation a {
+      color: #050000; }
+
+.rep {
+  padding-right: 70px; }
+  .rep:before, .rep:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .rep img {
+    padding-left: 10px;
+    margin-right: 50px; }
+
+.fondo span {
+  font-size: 10px; }
+.fondo .iconos:before, .fondo .iconos:after {
+  content: " ";
+  display: block;
+  clear: both; }
+.fondo .iconos input {
+  width: 60px;
+  margin-top: 10px; }
+  .fondo .iconos input:before, .fondo .iconos input:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+button {
+  border-radius: 10px; }
+  button a {
+    color: #FFF;
+    font-weight: 10px; }
+
+/*columnistas*/
+h3 {
+  margin-bottom: 10px; }
+  h3:before, h3:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.cuadrado {
+  margin: 10px;
+  border: 3px solid #768696;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+  background-color: #F4F5F7; }
+  .cuadrado h5, .cuadrado h6 {
+    text-align: center;
+    font-weight: bold; }
+  .cuadrado .cu img {
+    float: left; }
+  .cuadrado .cu p {
+    float: left;
+    text-align: center;
+    margin-left: 5px; }
+
+.back {
+  margin-bottom: 10px; }
+  .back li {
+    padding: 10px 35px 10px 35px; }
+
+.cua {
+  margin: 10px;
+  border: 3px solid #768696;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+  background-color: #F4F5F7;
+  padding-top: 10px; }
+  .cua img {
+    float: left;
+    border: 3px solid #768696;
+    width: 43%;
+    height: 80%; }
+  .cua p {
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    width: 45%;
+    font-size: 10px; }
 
 /*# sourceMappingURL=main.css.map */
