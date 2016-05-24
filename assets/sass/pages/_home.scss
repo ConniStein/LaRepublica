@@ -19,3 +19,369 @@
 		}
 	}
 }
+
+/*HEADER*/
+.menu1{
+	width:100%;
+	color:$blanco;
+	li{
+		border:1px solid $blanco;
+		background-color:$rojo;
+		padding:5px 10px 5px 10px;
+		a{
+			@include menu;
+		}
+	}
+
+}
+nav{
+	width:100%;
+	ul{
+		.temas{
+			border-radius:6px 0px 0px 6px;
+			background-color:$negro;
+			padding:5px 15px 5px 15px;
+		}
+		.presentation{
+			@include menuT;
+			padding:5px 10px 5px 10px;
+			img{
+				padding:3px;
+			}
+			a{
+				color:$negro;
+			}
+			
+		}
+	}
+}
+.rep{
+		@include repisa;
+		padding-right:70px;
+		img{
+		padding-left:10px;
+		margin-right: 50px;
+		}
+}
+.fondo{
+	span{
+		font-size: 10px;
+	}
+	.iconos{
+		@include repisa;
+			input{
+			width:60px;
+			margin-top: 10px;
+			@include repisa;
+		}
+	}
+	
+}
+button{
+	border-radius:10px;
+	a{
+		color:$blanco;
+		font-weight: 10px;
+	}
+}
+/*COLUMNA DERECHO*/
+.suscribete{
+	@include alturacuadros;
+	height:250px;
+	background-color:$gris;
+	position: relative;
+
+	img{
+		margin-left: 40%;
+		padding-top:0px;
+	}
+		
+	.suscribeteboton{
+		background-color:$blanco;
+		width:90%;
+		height:150px;
+		margin-left: 15px;
+		padding-top:-10px;
+		h4{
+			@include repisaboton;
+			margin-left:50px;
+		}
+		input{
+			@include repisaboton;
+			margin-left:60px;
+		}
+		button{
+			@include repisaboton;
+			margin-left:100px;
+		}
+	}
+	span{
+		
+		float:left;
+		padding-top:10px;
+		input{
+			float:left;
+			padding-top:10px;
+		}
+	}
+
+}
+.suscribete2{
+	@include alturacuadros;
+	height:400px;
+	background-color:$gris;
+	position: relative;
+
+	img{
+		margin-left: 40%;
+		padding-top:0px;
+	}
+		
+	.suscribeteboton{
+		background-color:$blanco;
+		width:90%;
+		height:150px;
+		margin-left: 15px;
+		padding-top:-10px;
+		margin-botton:10px;
+		h4{
+			@include repisaboton;
+			margin-left:50px;
+			text-align: center;
+		}
+		input{
+			@include repisaboton;
+			margin-left:60px;
+		}
+		button{
+			@include repisaboton;
+			margin-left:100px;
+		}
+		.progress{
+			float:left;
+		}
+	}
+	span{
+		
+		float:left;
+		padding-top:10px;
+		input{
+			float:left;
+			padding-top:10px;
+		}
+	}
+
+}
+.suscribete3{
+	@include alturacuadros;
+	height:450px;
+	background-color:$gris;
+	position: relative;
+
+	img{
+		margin-left: 40%;
+		padding-top:0px;
+	}
+		
+	.suscribeteboton{
+		background-color:$blanco;
+		width:90%;
+		height:350px;
+		margin-left: 15px;
+		padding-top:-10px;
+		h4{
+			@include repisaboton;
+			margin-left:50px;
+		}
+		input{
+			@include repisaboton;
+			margin-left:60px;
+		}
+		button{
+			@include repisaboton;
+			margin-left:100px;
+		}
+	}
+	.reportero{
+		img{
+			margin-left: 20%;
+			width:170px;
+			height:70px;
+		}
+		p{
+			text-align: center;
+		}
+	}
+	span{
+		
+		float:left;
+		padding-top:10px;
+		input{
+			float:left;
+			padding-top:10px;
+		}
+	}
+
+}
+.aweita{
+	@include alturacuadros;
+	height:350px;
+	img{
+		margin-left: 30%;
+	}
+}
+.titulos{
+	margin-botton:10px;
+	hr{
+		font-size: 13px;
+	}
+	h3{
+		background-color:$gris-oscuro;
+		@include titulares;
+	}
+	.fotostxt{
+		img{
+		float:left;
+		width:45%;
+		}
+	}
+	p{
+		float:left;
+		width:45%;
+		margin-left: 10px;
+		padding-top:10px;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.txt{
+		width:90%;
+		margin-top: -40px;
+		p{
+			text-align: center;
+			color:$negro;
+			font-weight:bold;
+		}
+	}
+	
+}
+.car{
+	margin-botton:10px;
+	h3{
+		background-color:$rojo;
+		@include titulares;
+	}
+	p{
+		font-size: 14px;
+		color:$rojo;
+		text-align: center;
+	}
+	
+}
+.blogue{
+	margin-botton:10px;	
+	h3{
+		background-color:$gris-oscuro;
+		@include titulares;
+	}
+	.blogueros{
+		width:100%;
+		@include repisa;
+		img{
+			width:35%;
+			float:left;
+			height:100px;
+		}
+		p,a{
+			width:45%;
+			float:left;
+			margin-left:5%;
+			padding-top:10px;
+			font-weight:bold;
+		}
+	}
+}
+.impresa{
+	margin-botton:10px;	
+	
+	h3{
+		background-color:$rojo;
+		text-align: center;
+		@include titulares;
+	}
+	.edicion{
+		width:100%;
+	}
+	.bl{
+		@include repisa;
+		img{
+		float:left;
+		width:40%;
+		}
+
+		p,a{
+			width:45%;
+			float:left;
+			margin-left:5%;
+			padding-top:10px;
+			font-weight:bold;
+		}
+	}
+}
+
+
+/*ESTILOS CONNI*/
+.col-md-12{
+	padding:30px;
+}
+
+h1, h3, h4, h6 {
+  font-weight: 700; 
+}
+
+.publicidad {
+  float: left; 
+}
+
+.title-social {
+	display: inline-block;
+  	margin-left: 150px;
+
+  	.title-social .title-icon {
+    	width: 10%;
+    	height: 10%; 
+	}
+  	.title-social ul {
+    	display: inline-block; 
+	}
+    .title-social ul li {
+      display: inline-block;
+      text-align: right;
+      padding-right: 5px;
+      margin-left: 10px; 
+  	}
+}
+
+/*ESTILOS FOOTER*/
+.bg-gray{
+	background-color:$bg-gris;
+	padding:40px 40px 0px 30px;
+	margin-top:20px;
+	.img-footer, h4{
+		padding-left:40px;
+	}
+	
+	.footer-logo{
+		padding-top:50px;
+	}
+	ul li{
+		text-align: left;
+	}
+	.col-md-4{
+		padding:-10px;
+	}
+	.derechos{
+		font-size: 12px;
+	}
+}
+
+
