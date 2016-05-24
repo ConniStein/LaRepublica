@@ -1,82 +1,572 @@
-/*
-Error: Invalid CSS after "	padding:30px": expected "{", was ";"
-        on line 339 of assets/sass/pages/_home.scss
-        from line 6 of assets/sass/main.scss
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+/*colores*/
+/*fuentes*/
+.text-gray {
+  color: #768696; }
 
-334: .col-md-14{
-335: 
-336: /*ESTILOS CONNI*\/
-337: .col-md-12{
-338: >>>>>>> conni-home
-339: 	padding:30px;
-340: }
-341: 
-342: h1, h3, h4, h6 {
-343:   font-weight: 700; 
-344: }
+.text-red {
+  color: #BA1414; }
 
-Backtrace:
-assets/sass/pages/_home.scss:339
-assets/sass/main.scss:6
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:312:in `to_tree'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"	padding:30px\": expected \"{\", was \";\"\A         on line 339 of assets/sass/pages/_home.scss\A         from line 6 of assets/sass/main.scss\A \A 334: .col-md-14{\A 335: \A 336: /*ESTILOS CONNI*/\A 337: .col-md-12{\A 338: >>>>>>> conni-home\A 339: 	padding:30px;\A 340: }\A 341: \A 342: h1, h3, h4, h6 {\A 343:   font-weight: 700; \A 344: }"; }
+.text-white {
+  color: #FFF; }
+
+h1, h3, h4, h6 {
+  font-weight: 700; }
+
+a:hover {
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none;
+  float: left;
+  display: inline-block; }
+
+h1, h4 {
+  text-align: center; }
+
+.fondo {
+  background-color: #F4F5F7;
+  width: 100%;
+  height: 150px;
+  margin: 0 auto; }
+  .fondo img {
+    padding-top: 10px;
+    padding-left: 10px; }
+    .fondo img:rep {
+      padding-right: 100px; }
+
+.publicidad {
+  float: left; }
+
+.title-social {
+  display: inline-block;
+  margin-left: 150px; }
+  .title-social .title-icon {
+    width: 10%;
+    height: 10%; }
+  .title-social ul {
+    display: inline-block; }
+    .title-social ul li {
+      display: inline-block;
+      text-align: right;
+      padding-right: 5px;
+      margin-left: 10px; }
+
+/*HEADER*/
+.menu1 {
+  width: 100%;
+  color: #FFF; }
+  .menu1 li {
+    border: 1px solid #FFF;
+    background-color: #BA1414;
+    padding: 5px 10px 5px 10px; }
+    .menu1 li a {
+      font-family: Roboto;
+      color: #FFF;
+      font-size: 13px; }
+
+nav {
+  width: 100%; }
+  nav ul .temas {
+    border-radius: 6px 0px 0px 6px;
+    background-color: #050000;
+    padding: 5px 15px 5px 15px; }
+  nav ul .presentation {
+    color: #050000;
+    padding: 5px;
+    background-color: #F4F5F7;
+    padding: 5px 10px 5px 10px; }
+    nav ul .presentation img {
+      padding: 3px; }
+    nav ul .presentation a {
+      color: #050000; }
+
+.rep {
+  padding-right: 70px; }
+  .rep:before, .rep:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .rep img {
+    padding-left: 10px;
+    margin-right: 50px; }
+
+.fondo span {
+  font-size: 10px; }
+.fondo .iconos:before, .fondo .iconos:after {
+  content: " ";
+  display: block;
+  clear: both; }
+.fondo .iconos input {
+  width: 60px;
+  margin-top: 10px; }
+  .fondo .iconos input:before, .fondo .iconos input:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+button {
+  border-radius: 10px; }
+  button a {
+    color: #FFF;
+    font-weight: 10px; }
+
+/*COLUMNA DERECHO*/
+.suscribete {
+  width: 100%;
+  border: 1px solid #768696;
+  margin-bottom: 10px;
+  height: 250px;
+  background-color: #F4F5F7;
+  position: relative; }
+  .suscribete .ima {
+    float: left;
+    width: 45%; }
+  .suscribete .textoima {
+    float: left;
+    width: 45%; }
+    .suscribete .textoima p {
+      font-size: 12px;
+      float: left;
+      margin-left: 10%;
+      padding-top: 10px;
+      font-weight: bold; }
+  .suscribete img {
+    margin-left: 40%;
+    padding-top: 0px; }
+  .suscribete .suscribeteboton {
+    background-color: #FFF;
+    width: 90%;
+    height: 150px;
+    margin-left: 15px;
+    padding-top: -10px; }
+    .suscribete .suscribeteboton h4 {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 50px; }
+    .suscribete .suscribeteboton input {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 60px; }
+    .suscribete .suscribeteboton button {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 100px; }
+  .suscribete span {
+    float: left;
+    padding-top: 10px; }
+    .suscribete span input {
+      float: left;
+      padding-top: 10px; }
+
+.suscribete2 {
+  width: 100%;
+  border: 1px solid #768696;
+  margin-bottom: 10px;
+  height: 400px;
+  background-color: #F4F5F7;
+  position: relative; }
+  .suscribete2 .ima {
+    float: left;
+    width: 45%; }
+  .suscribete2 .textoima {
+    float: left;
+    width: 45%; }
+    .suscribete2 .textoima p {
+      font-size: 12px;
+      float: left;
+      margin-left: 10%;
+      padding-top: 10px;
+      font-weight: bold; }
+  .suscribete2 img {
+    margin-left: 40%;
+    padding-top: 0px; }
+  .suscribete2 .suscribeteboton {
+    background-color: #FFF;
+    width: 90%;
+    height: 150px;
+    margin-left: 15px;
+    padding-top: -10px;
+    margin-botton: 10px; }
+    .suscribete2 .suscribeteboton h4 {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 50px;
+      text-align: center; }
+    .suscribete2 .suscribeteboton input {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 60px; }
+    .suscribete2 .suscribeteboton button {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 100px; }
+    .suscribete2 .suscribeteboton .progress {
+      float: left; }
+  .suscribete2 span {
+    float: left;
+    padding-top: 10px; }
+    .suscribete2 span input {
+      float: left;
+      padding-top: 10px; }
+
+.suscribete3 {
+  width: 100%;
+  border: 1px solid #768696;
+  margin-bottom: 10px;
+  height: 450px;
+  background-color: #F4F5F7;
+  position: relative; }
+  .suscribete3 .ima {
+    float: left;
+    width: 45%; }
+  .suscribete3 .textoima {
+    float: left;
+    width: 45%; }
+    .suscribete3 .textoima p {
+      font-size: 12px;
+      float: left;
+      margin-left: 10%;
+      padding-top: 10px;
+      font-weight: bold; }
+  .suscribete3 img {
+    margin-left: 40%;
+    padding-top: 0px; }
+  .suscribete3 .suscribeteboton {
+    background-color: #FFF;
+    width: 90%;
+    height: 350px;
+    margin-left: 15px;
+    padding-top: -10px; }
+    .suscribete3 .suscribeteboton h4 {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 50px; }
+    .suscribete3 .suscribeteboton input {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 60px; }
+    .suscribete3 .suscribeteboton button {
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0px 20px 0px;
+      display: block;
+      margin-left: 100px; }
+  .suscribete3 .reportero img {
+    margin-left: 20%;
+    width: 170px;
+    height: 70px; }
+  .suscribete3 .reportero p {
+    text-align: center; }
+  .suscribete3 span {
+    float: left;
+    padding-top: 10px; }
+    .suscribete3 span input {
+      float: left;
+      padding-top: 10px; }
+
+.aweita {
+  width: 100%;
+  border: 1px solid #768696;
+  margin-bottom: 10px;
+  height: 350px; }
+  .aweita .ima {
+    float: left;
+    width: 45%; }
+  .aweita .textoima {
+    float: left;
+    width: 45%; }
+    .aweita .textoima p {
+      font-size: 12px;
+      float: left;
+      margin-left: 10%;
+      padding-top: 10px;
+      font-weight: bold; }
+  .aweita img {
+    margin-left: 30%; }
+
+.titulos {
+  margin-botton: 10px; }
+  .titulos hr {
+    font-size: 13px; }
+  .titulos h3 {
+    background-color: #768696;
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+    color: #FFF; }
+  .titulos .fotostxt img {
+    float: left;
+    width: 45%; }
+  .titulos p {
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 12px; }
+  .titulos .txt {
+    width: 90%;
+    margin-top: -40px; }
+    .titulos .txt p {
+      text-align: center;
+      color: #050000;
+      font-weight: bold; }
+
+.car {
+  margin-botton: 10px; }
+  .car h3 {
+    background-color: #BA1414;
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+    color: #FFF; }
+  .car p {
+    font-size: 14px;
+    color: #BA1414;
+    text-align: center; }
+
+.blogue {
+  margin-botton: 10px; }
+  .blogue h3 {
+    background-color: #768696;
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+    color: #FFF; }
+  .blogue .blogueros {
+    width: 100%; }
+    .blogue .blogueros:before, .blogue .blogueros:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    .blogue .blogueros img {
+      width: 35%;
+      float: left;
+      height: 100px; }
+    .blogue .blogueros p, .blogue .blogueros a {
+      width: 45%;
+      float: left;
+      margin-left: 5%;
+      padding-top: 10px;
+      font-weight: bold; }
+
+.impresa {
+  margin-botton: 10px; }
+  .impresa h3 {
+    background-color: #BA1414;
+    text-align: center;
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;
+    color: #FFF; }
+  .impresa .edicion {
+    width: 100%; }
+  .impresa .bl:before, .impresa .bl:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .impresa .bl img {
+    float: left;
+    width: 40%; }
+  .impresa .bl p, .impresa .bl a {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 10px;
+    font-weight: bold; }
+
+/*ESTILOS CONNI HOME*/
+.col-md-14 {
+  padding: 30px; }
+
+h1, h3, h4, h6 {
+  font-weight: 700; }
+
+.publicidad {
+  float: left; }
+
+.title-social {
+  display: inline-block;
+  margin-left: 150px; }
+  .title-social .title-social .title-icon {
+    width: 10%;
+    height: 10%; }
+  .title-social .title-social ul {
+    display: inline-block; }
+  .title-social .title-social ul li {
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+    margin-left: 10px; }
+
+.thumbnail {
+  border: 1px solid #EAEAEA;
+  margin: 10px; }
+  .thumbnail img {
+    width: 100%; }
+
+/*ESTILOS FOOTER*/
+.bg-gray {
+  background-color: #EAEAEA;
+  padding: 40px 40px 0px 30px;
+  margin-top: 20px; }
+  .bg-gray .img-footer, .bg-gray h4 {
+    padding-left: 40px; }
+  .bg-gray .footer-logo {
+    padding-top: 50px; }
+  .bg-gray ul li {
+    text-align: left; }
+  .bg-gray .col-md-4 {
+    padding: -10px; }
+  .bg-gray .derechos {
+    font-size: 12px; }
+
+.container-blogs {
+  padding: 50px; }
+  .container-blogs .titular {
+    text-align: left; }
+  .container-blogs .blog-box {
+    border: 1px solid #E2E6E9;
+    padding: 10px;
+    margin: 10px;
+    width: 100%; }
+    .container-blogs .blog-box .img-thumbnail {
+      padding-left: -40px; }
+    .container-blogs .blog-box h4 {
+      margin-bottom: 48px;
+      text-align: center; }
+    .container-blogs .blog-box p {
+      text-align: center; }
+  .container-blogs .blog-box-2 {
+    border: 1px solid #E2E6E9;
+    padding: 10px;
+    margin: 10px;
+    width: 100%; }
+    .container-blogs .blog-box-2 h4 {
+      text-align: center; }
+    .container-blogs .blog-box-2 p {
+      text-align: center; }
+  .container-blogs .blog-box-3 {
+    border: 1px solid #E2E6E9;
+    padding: 10px;
+    margin: 10px;
+    width: 100%; }
+    .container-blogs .blog-box-3 h4 {
+      margin-bottom: 29px;
+      text-align: center; }
+    .container-blogs .blog-box-3 p {
+      text-align: center; }
+
+.bg-gray-2 {
+  background-color: #E2E6E9;
+  padding: 10px 40px 10px 10px; }
+  .bg-gray-2 h5, .bg-gray-2 h6 {
+    text-align: center;
+    background-color: #E2E6E9; }
+
+.menu1 {
+  width: 100%;
+  color: #FFF; }
+  .menu1 li {
+    border: 1px solid #FFF;
+    background-color: #BA1414;
+    padding: 5px 10px 5px 10px; }
+    .menu1 li a {
+      font-family: Roboto;
+      color: #FFF;
+      font-size: 13px; }
+
+h3 {
+  margin-bottom: 10px; }
+  h3:before, h3:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.cuadrado {
+  margin: 10px;
+  border: 3px solid #768696;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+  background-color: #F4F5F7; }
+  .cuadrado h5, .cuadrado h6 {
+    text-align: center;
+    font-weight: bold; }
+  .cuadrado .cu img {
+    float: left; }
+  .cuadrado .cu p {
+    float: left;
+    text-align: center;
+    margin-left: 5px; }
+
+.back {
+  margin-bottom: 10px; }
+  .back li {
+    padding: 10px 35px 10px 35px; }
+
+.cua {
+  margin: 10px;
+  border: 3px solid #768696;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+  background-color: #F4F5F7;
+  padding-top: 10px; }
+  .cua img {
+    float: left;
+    border: 3px solid #768696;
+    width: 43%;
+    height: 80%; }
+  .cua p {
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    width: 45%;
+    font-size: 10px; }
+
+.contact-box {
+  padding: 30px; }
+  .contact-box h1 {
+    text-align: center; }
+  .contact-box button {
+    background-color: #171717;
+    padding: 10px 100px;
+    color: #FFF;
+    font-weight: 700;
+    margin: 20px 10px 10px 150px; }
+
+.contact-form {
+  padding: 0px 150px 0px 150px; }
+  .contact-form .col-md-7 {
+    height: 100%;
+    width: 40%; }
+    .contact-form .col-md-7 .radio label {
+      padding-bottom: 6px; }
+  .contact-form .form-control {
+    background-color: #EAEAEA; }
+  .contact-form .ejemplo-box {
+    width: 60%; }
+    .contact-form .ejemplo-box .ejemplo-form {
+      text-align: right;
+      margin-top: 80px; }
+      .contact-form .ejemplo-box .ejemplo-form li {
+        padding-bottom: 10px;
+        list-style: none; }
+
+/*# sourceMappingURL=main.css.map */
